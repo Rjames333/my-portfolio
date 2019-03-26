@@ -12,4 +12,6 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
+  topics = 
+  [ 'Angular', 'React', 'Vue'];
 }
