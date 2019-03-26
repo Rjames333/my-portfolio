@@ -6,6 +6,5 @@ export class User {
         public topic: string,
         public timePreference: string,
         public subscribe: boolean
-
-    ) {}
+) {}
 }
