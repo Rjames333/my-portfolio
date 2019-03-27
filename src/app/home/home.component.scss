@@ -1,16 +1,75 @@
-// .navbar {
-//     background-color: white;
-// }
-// .jumbo-title {
-//     background-color: white;
-//     margin-top: 100px;
-// }
-// .jumbo-bio {
-//     background-color: #8d43ff;
-// }
-// .design-images {
-//     margin-bottom: 0 !important;
-// }
-// .recent-1 {
-//     font-size: 40px;
-// }
+.navbar {
+    background-color: white;
+}
+
+.jumbo-title {
+    background-color: white;
+    margin-top: 100px;
+}
+
+.jumbo-bio {
+    background-color: #8d43ff;
+}
+
+.bio-text {
+    width: 85%;
+}
+
+.design-images {
+    margin-bottom: 0 !important;
+}
+
+.recent-1 {
+    font-size: 40px;
+}
+
+.container-1 figure {
+    margin: 0;
+    position: relative;
+    background-color: #000;
+}
+
+.container-1 figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.container-1 figcaption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+}
+
+.container-1 figure:hover img {
+    opacity: 0.25;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+.container-1 figure:hover figcaption {
+    opacity: 1;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+a.button {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+a.button:hover {
+    background-color: #fff;
+    color: #666666;
+}
